@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from standard_scaler import StdScaler
 
-X = np.array([[1, 20, 6], [4, 35, 10], [7, 50, 18]])
+X = pd.read_csv('vine.csv')
 df_X = pd.DataFrame(X)
 
 # 2 cases : 
