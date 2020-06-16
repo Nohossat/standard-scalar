@@ -10,6 +10,11 @@ You can either standardize a Pandas Dataframe or a Numpy array.
 
 ```python
 
+import pandas as pd
+import numpy as np
+from standard_scaler import StdScaler
+
+scaler = StdScaler()
 df_X = pd.read_csv('vine.csv')
 X = df_X.values
 
